@@ -1,8 +1,18 @@
-# React + Vite
+# TodoList
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación de lista de tareas (TodoList) creada con React y Vite. Permite agregar, eliminar y finalizar tareas de manera sencilla.
 
-Currently, two official plugins are available:
+## Instrucciones de uso
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1. Agregar una nueva tarea
+
+- En la sección `New ToDo`, escribe la descripción de la tarea que deseas agregar.
+- Haz clic en el botón `Add` para agregar la tarea a la lista.
+
+### 2. Finalizar una tarea
+
+- Para finalizar una tarea, haz clic sobre el nombre de la tarea en la lista. Esto marcará la tarea como completada.
+
+### 3. Eliminar una tarea
+
+- Para eliminar una tarea, haz clic en el botón `Delete` asociado a la tarea en la lista.
